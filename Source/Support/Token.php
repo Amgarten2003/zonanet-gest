@@ -72,16 +72,15 @@ class Token
         
         // Verifying if the token exists in the array 'seem_token'
         if (in_array($token, $seem_tokens)) {
-           // header("Location: " . URL_HOME);
            return true;
         } else {
             echo "{$this->error(__FUNCTION__, __LINE__)}";
             return false;
         }
     }
-
-
     
+
+
     public function setInactiveToken($token) {
         // Setting the token as inactive after the validation
         $this->active = 0;

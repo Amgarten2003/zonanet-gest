@@ -16,7 +16,11 @@
     </form>
 
     <a href="cadastro.php">
-      <input type="submit" value="Cadastrar"/>
+      <input type="submit" value="Cadastrar" />
+    </a>
+
+    <a href="activaToken.php">
+      <input type="submit" value="Esqueceu a Senha?" />
     </a>
 </body>
 </html>
