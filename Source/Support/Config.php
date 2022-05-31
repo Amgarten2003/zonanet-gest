@@ -20,7 +20,7 @@ define("CONF_PASSWD_OPTION", ["cost" => 10]);
 /**
  *  URL
  */
-define("URL_REGISTER", "http://localhost/ZonaNet/cadastro.php/");
-define("URL_TOKEN", "http://localhost/ZonaNet/activateToken.php/");
-define("URL_HOME", "http://localhost/ZonaNet/home.php/");
-define("URL_CHANGE_INFOS", "http://localhost/ZonaNet/changeInfos.php/");
+define("URL_REGISTER", "http://localhost/ZonaNet-Gest/cadastro.php/");
+define("URL_TOKEN", "http://localhost/ZonaNet-Gest/activateToken.php/");
+define("URL_HOME", "http://localhost/ZonaNet-Gest/home.php/");
+define("URL_CHANGE_INFOS", "http://localhost/ZonaNet-Gest/changeInfos.php/");

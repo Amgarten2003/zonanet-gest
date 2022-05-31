@@ -19,7 +19,7 @@
       <input type="submit" value="Cadastrar" />
     </a>
 
-    <a href="activaToken.php">
+    <a href="changePass.php">
       <input type="submit" value="Esqueceu a Senha?" />
     </a>
 </body>
