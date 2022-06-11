@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>HOME</h1>
-    <form method="POST" enctype="multipart/form-data">
+    <form method="POST" action="http://localhost/ZonaNet-Gest/changeInfos.php" enctype="multipart/form-data">
         <input type="submit" value="Mudar Infos" />
     </form>
 </body>

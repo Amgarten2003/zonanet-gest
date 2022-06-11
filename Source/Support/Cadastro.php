@@ -148,7 +148,7 @@ class Cadastro
         $canUseEmail = false;
 
         // Checking if user already exists in the DataBase
-        if($row == 0) {
+        if ($row == 0) {
             $canUseUser = true;
         } else {
             echo "USUARIO JÁ EXISTE";
@@ -161,7 +161,7 @@ class Cadastro
         $rowEmail = mysqli_num_rows($resultEmail);
 
         // Checking if email already exists in the DataBase
-        if($rowEmail == 0) {
+        if ($rowEmail == 0) {
             $canUseEmail = true;
         } else {
             echo "EMAIL JÁ EXISTE";
